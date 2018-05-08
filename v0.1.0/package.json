@@ -8,7 +8,8 @@
   },
   "author": "Team dev communic",
   "license": "GPL-3.0",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "electron": "^2.0.0"
   }
 }

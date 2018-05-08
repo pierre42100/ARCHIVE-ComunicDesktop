@@ -5,9 +5,9 @@ const BrowserWindow = electron.BrowserWindow;
 let mainWindow
 
 function createWindow() {
-	mainWindow = new BrowserWindow({icon:'icon.png'});
+	mainWindow = new BrowserWindow({icon:'resources/app/icon.png'});
 	mainWindow.setIco
-	mainWindow.loadURL('http://beta.communiquons.org/login');
+	mainWindow.loadURL('http://communiquons.org');
 	
 	mainWindow.on('closed', () =>{
 		mainWindow = null;
